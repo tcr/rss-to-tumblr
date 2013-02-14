@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Convert RSS feeds to Tumblr.",
   "main": "rss-to-tumblr.js",
+  "bin": {
+    "rss-to-tumblr": "./rss-to-tumblr.js"
+  },
   "dependencies": {
     "feedparser": "~0.12.0",
     "rem": "~0.6.3"
